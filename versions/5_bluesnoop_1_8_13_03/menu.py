@@ -6,6 +6,8 @@ from rich.text import Text
 
 console = Console()
 
+GLOBAL_HISTORY = {}
+
 def display_banner():
     """Reads the banner from banner.txt and displays it."""
     banner_path = "banner.txt"
