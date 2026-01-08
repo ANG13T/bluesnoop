@@ -114,17 +114,19 @@ def get_snoop_time():
 
 def show_about_screen():
     about_text = """
-    [bold cyan]BLUESNOOP v1.0[/bold cyan]
+    [bold cyan]BLUESNOOP v1.0.0[/bold cyan]
+    Engineered by [bold]BL4Q W1DØW[/bold]
+    GitHub: [underline blue]github.com/ANG13T/bluesnoop[/underline blue]
     
-    A lightweight Bluetooth Signal Intelligence (SIGINT) utility.
+    A lightweight TUI Bluetooth SIGINT utility
     
     [bold yellow]Capabilities:[/bold yellow]
-    - [bold]Passive Recon:[/bold] Identify nearby device UUIDs and Names.
-    - [bold]Session Memory:[/bold] Persistent tracking of first/last appearance.
-    - [bold]Friendly Mapping:[/bold] Translation of cryptic model IDs.
-    - [bold]Data Dumping:[/bold] Export intelligence for external analysis.
+    - [bold]Passive Recon:[/bold] Identify nearby device UUIDs and names
+    - [bold]Session Memory:[/bold] Persistent tracking of first and last appearance
+    - [bold]Friendly Mapping:[/bold] Translation of cryptic model IDs
+    - [bold]Data Dumping:[/bold] Export intelligence for external analysis
     """
-    console.print(Panel(about_text, title="Intel Briefing", border_style="bright_black"))
+    console.print(Panel(about_text, title="", border_style="bright_black"))
     input("\nPress Enter to return to menu...")
 
 def print_menu_options():

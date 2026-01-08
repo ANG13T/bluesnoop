@@ -19,4 +19,4 @@
 
   > A TUI bluetooth utility for radar analysis and war driving | [v1.0.0] <
                  :: Engineered by BL4Q W1DØW // [ 1/8/2026 ] ::
-s
+                        [ github.com/ANG13T/bluesnoop ]
