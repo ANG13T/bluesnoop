@@ -9,6 +9,6 @@ Go to `Privacy & Security > Bluetooth.`
 #### Getting Started
 ```shell
 source .venv/bin/activate
-pip install asyncio bleak
+pip install asyncio bleak rich
 python3 bluesnoop.py
 ```
