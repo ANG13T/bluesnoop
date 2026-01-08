@@ -36,3 +36,6 @@ Explore more on the following:
 
 
 ### Interpreting Bluetooth UUID Numbers 
+
+- Use a public OUI database (like the IEEE OUI list) to map MAC address prefixes to manufacturers.
+- You can find the OUI database here: https://standards-oui.ieee.org

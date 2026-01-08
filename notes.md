@@ -8,11 +8,7 @@ The items should be selectable. When selected, the user is presented with a menu
   4. View Location on Map (opens a map with GPS coords)
   5. Exit to Device List
 
-- Use a public OUI database (like the IEEE OUI list) to map MAC address prefixes to manufacturers.
-- You can find the OUI database here: https://standards-oui.ieee.org
-
 - GPS tagging
-
 - finish writing the `README.md` file for the project
 
 
