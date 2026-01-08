@@ -16,7 +16,7 @@ def display_banner():
         banner_content = "BLUETOOTH SNOOPER\n[File banner.txt not found]"
 
     banner_text = Text(banner_content, style="bold cyan")
-    console.print(Align.center(Panel(banner_text, subtitle="Bluetooth SIGINT Utility - v0.0.1", subtitle_align="right")))
+    console.print(banner_text)
 
 def get_snoop_time():
     """Prompts user for duration with default and max constraints."""
