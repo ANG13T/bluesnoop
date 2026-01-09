@@ -1,6 +1,10 @@
 # bluesnoop
 A simple Bluetooth Low Energy (BLE) sniffer using Python and the Bleak library
 
+## Preview
+
+<img alt="bluesnoop preview" width="600" src="https://github.com/ANG13T/bluesnoop/blob/main/assets/asset_0.png">
+
 #### Grant Bluetooth Permissions
 Since you are using iTerm2, you need to ensure the terminal itself has permission to "snoop" on Bluetooth.
 Open System Settings (or System Preferences).
@@ -39,3 +43,14 @@ Explore more on the following:
 
 - Use a public OUI database (like the IEEE OUI list) to map MAC address prefixes to manufacturers.
 - You can find the OUI database here: https://standards-oui.ieee.org
+
+## Contributing
+bluesnoop is open to any contributions. Please fork the repository and make a pull request with the features or fixes you want to be implemented.
+
+## Upcoming
+- 
+
+## Support
+If you enjoyed bluesnoop, please consider [becoming a sponsor](https://github.com/sponsors/ANG13T) in order to fund my future projects. 
+
+To check out my other works, visit my [GitHub profile](https://github.com/ANG13T).
